@@ -1,0 +1,5 @@
+ErrorDocument 400 http://www.prateek-mishra.com/error.html
+ErrorDocument 401 http://www.prateek-mishra.com/error.html
+ErrorDocument 403 http://www.prateek-mishra.com/error.html
+ErrorDocument 404 http://www.prateek-mishra.com/error.html
+ErrorDocument 503 http://www.prateek-mishra.com/error.html
