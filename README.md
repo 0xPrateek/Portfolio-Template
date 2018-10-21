@@ -2,7 +2,7 @@
 A portfolio/Resume website template for programmers, geeks, developers, hackers etc.
 
 # Highlights
-1. Setup very eaisly and you get a site of your own for free.
+1. Setup's very eaisly and you get a site of your own for free.
 2. To add your details you just need simple editing skills. No code changes required.
 3. Simple and Fast website User Interface.
 
