@@ -24,12 +24,12 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 h1, h2, h3, h4, h5, h6 {font-family:'Open Sans', sans-serif;color:#444;}
 h1 {margin: 0; font-size: 4.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 60px / 72px */
 h2 {margin: 0; font-size: 2.75em; line-height: 1.3em; margin-bottom: 0.5em} /* 48px / 48px */
-h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
+h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */
 h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 2.75em; line-height: 1.2em; margin-bottom: 0.4em} /* 18px / 24px */
-h7 {margin: 0; font-size: 0.5em; line-height: 1.3em; margin-bottom: 0.5em} 
-p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
+h7 {margin: 0; font-size: 0.5em; line-height: 1.3em; margin-bottom: 0.5em}
+p, ul, blockquote, pre, th, label {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
 /* CODE */
@@ -37,9 +37,9 @@ pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word} /* Allow li
 pre, code, kbd, samp {font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em; font-family: Menlo, Consolas, 'DejaVu Sans Mono', Monaco, monospace}
 
 /* TABLES */
-table {border-collapse: collapse; border-spacing: 0; margin-bottom: 1.5em}
+table {border-collapse: collapse;border-spacing: 0;margin-bottom: 1.5em;display: flex;margin-left: 105px;}
 th {text-align: left}
-tr, th, td {padding-right: 1.5em; border-bottom: 0 solid #333}
+th,{padding: 800px; border-bottom: 0 solid #333}
 
 /* FORMS */
 form {margin: 0}
@@ -68,7 +68,7 @@ dl dd {margin-left: 1.5em}
 dt {font-family:Futura, "Century Gothic", AppleGothic, sans-serif}
 
 /* HYPERLINKS */
-a { 
+a {
   text-decoration: none;
   color: #444;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -145,11 +145,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -o-background-size: cover;
   background-size: cover;
 }
-.clearfix:after { 
- content: "."; 
- visibility: hidden; 
- display: block; 
- height: 0; 
+.clearfix:after {
+ content: ".";
+ visibility: hidden;
+ display: block;
+ height: 0;
  clear: both;
 }
 .no-list{
@@ -178,11 +178,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 #header #helloworld{
   text-align: center;
-  
+
   display: none;
 }
 #header h4{
-  margin-bottom:0px; 
+  margin-bottom:0px;
 }
 #header .visible{
   opacity: 1;
@@ -215,7 +215,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   border-bottom: 0px;
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
-  margin-right:10px; 
+  margin-right:10px;
 }
 
 .tab a {
@@ -283,7 +283,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   letter-spacing: 2px;
   margin-bottom: .2em;
   margin-top: 0.5em;
-  
+
 }
 .info h4, #header h4{
   color: #59BD85;
@@ -301,7 +301,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-bottom: .2em;
   margin-top: 0.5em;
   color: #fff;
-  
+
 }
 /* Contact */
 .main-links{
@@ -320,7 +320,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
   font-size: 14px;
 
-} 
+}
 /* Contact-info */
 .contact-info{
 
@@ -439,7 +439,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   text-align: center;
 }
 .sny-icon-content h4{
-  margin-bottom:6px; 
+  margin-bottom:6px;
 }
 .sny-icon-content p{
   margin-bottom: 0px;
@@ -447,8 +447,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Buttons */
 .btn{
   display:inline-block;
-  margin: 0 10px 10px 0;    
-  padding: 14px 20px;  
+  margin: 0 10px 10px 0;
+  padding: 14px 20px;
   background: #E74C3C;
   color: #fff;
   font-weight: bold;
@@ -532,7 +532,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* Meters */
-.meter { 
+.meter {
   height: 24px;  /* Can be anything */
   position: relative;
   border: 1px solid #f1f1f1;
@@ -648,7 +648,7 @@ Change widths as necessary
 }
 
 /* TABLET/NETBOOK */
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
   body {
 
   }
@@ -720,7 +720,7 @@ Change widths as necessary
 
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
-@media only screen and (min-width: 1024px) { 
+@media only screen and (min-width: 1024px) {
   body {
 
   }
@@ -743,7 +743,7 @@ Change widths as necessary
   .g3 {width:98.0%}
 }
 
-@media only screen and (min-width: 1280px) { 
+@media only screen and (min-width: 1280px) {
   /* DESKTOP */
   body {
 
@@ -752,7 +752,7 @@ Change widths as necessary
 
 /* WIDESCREEN */
 /* Increased body size for legibility */
-@media only screen and (min-width: 1400px) { 
+@media only screen and (min-width: 1400px) {
   body {} /* 18.5px / 28px */
 }
 
@@ -771,4 +771,13 @@ Change widths as necessary
   @page {margin: 0.5cm}
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
+}
+.project-div { background-color: #4AB478; text-align: center; padding: 10px; }
+.image {height: 100px;background-color: white;margin-bottom: 10px;font-family: Sofia;text-align: center;padding-top:30px;font-size: 20px;font-weight: bold;}
+.data { font-size: 150%;font-family: 'Amaranth';color: white;}
+td {padding: 20px;width:250px;height: 200px;}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    display: grid;
 }
