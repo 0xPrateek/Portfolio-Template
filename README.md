@@ -14,7 +14,7 @@ A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers 
 ![Skills Tab](https://i.postimg.cc/HL6zZ0TP/2.png)
 
 #### Project Tab
-![Project Tab](https://i.postimg.cc/TwS9GRLV/3.png)
+![Project Tab](https://i.imgur.com/wIM0Gcr.png)
 
 #### Contact Tab
 ![Contact Tab](https://i.postimg.cc/Y0WxCJYJ/4.png)
@@ -37,4 +37,4 @@ Any and all contributions, issues, features and tips are welcome.
 
 ### Contact
 
-All the links to reach me out is given here  :: www.prateek-mishra.com
+For any Suggestion / Ideas ping me at [@prateekis1](https://twitter.com/prateekis1)
