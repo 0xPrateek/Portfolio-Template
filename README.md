@@ -14,7 +14,7 @@ A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers 
 ![Skills Tab](https://i.postimg.cc/HL6zZ0TP/2.png)
 
 #### Project Tab
-![Project Tab](https://i.imgur.com/wIM0Gcr.png)
+![Project Tab](https://i.imgur.com/u4oyV6r.png)
 
 #### Contact Tab
 ![Contact Tab](https://i.postimg.cc/Y0WxCJYJ/4.png)
