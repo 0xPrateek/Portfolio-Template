@@ -349,9 +349,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   float: left;
   margin-right: 12px;
 }
-.item-box i.icon-envelope{
 
-}
 .item-box .item-data{
  margin-top: 6px;
 }
@@ -531,6 +529,39 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background-color: #ec971f;
 }
 
+/* Project */
+.project-section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.project-container{
+  max-width: 240px;
+  border-radius:5px;
+  background-color: #5cb85c;
+  color:#fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 3px #5cb85c27;
+}
+.project-img-container{
+  width:100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.project-img-container img{
+  width:100%;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 0px;
+} 
+.project-title{
+  text-align: center;
+  margin:1.2rem auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+
 /* Meters */
 .meter {
   height: 24px;  /* Can be anything */
@@ -638,12 +669,18 @@ Change widths as necessary
 }
 
 /* SMALL TABLET */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   body {
 
   }
   .etabs >li span{
     display: block;
+  }
+  .project-section{
+    grid-template-columns:auto;
+  }
+  .project-container{
+    max-width:200px;
   }
 }
 
