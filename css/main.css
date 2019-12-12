@@ -923,14 +923,15 @@ input[type=text], .project_description, input[type=url] {
 
 /* Center the image and position the close button */
 .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
+  text-align: center;
+  margin: 12px 0 6px 0;
+  position: relative;
 }
 .avatar {
-    width: 200px;
-	height:200px;
+    width: 175px;
+	  height:175px;
     border-radius: 50%;
+    margin: 0;
 }
 
 /* The Modal (background) */
