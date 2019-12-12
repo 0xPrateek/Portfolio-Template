@@ -908,14 +908,14 @@ input[type=text], .project_description, input[type=url] {
 
 /* Set a style for all buttons */
 .project_submit {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 26px;
-    border: none;
-    cursor: pointer;
-    width: 90%;
-	font-size:20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 26px;
+  border: none;
+  cursor: pointer;
+  width: 85%;
+  font-size:20px;
 }
 .project_submit:hover {
     opacity: 0.8;
