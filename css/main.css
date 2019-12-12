@@ -886,17 +886,24 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
 }
+.project_details{
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  margin : 0;
+  font-weight: bold;
+}
 input[type=text], .project_description, input[type=url] {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 26px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-	font-size:16px;
+  width: 85%;
+  padding: 12px 20px;
+  margin: 5px 26px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size:16px;
 }
 .project_description{
-  max-width: 90%;
+  max-width: 85%;
 }
 
 /* Set a style for all buttons */
