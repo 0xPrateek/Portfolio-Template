@@ -307,59 +307,80 @@
             <section class="clearfix">
               <div class="project-section">
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container"onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
+              </div>
+              <div id="modal-wrapper" class="modal">
+
+                <form class="modal-content animate">
+
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="images/floor.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Project Details</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Project Name" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
+                    <input type="url" placeholder="Project Link"readonly>
+                    <input type="text" placeholder="Languages used" readonly>
+                    <button class="project_submit" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
               </div>
             </section>
           </div>
