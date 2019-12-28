@@ -33,7 +33,6 @@ body {
   margin: 0;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #666
 }
@@ -519,6 +518,7 @@ body {
   background: #fff;
   border: solid 1px #f1f1f1;
   border-bottom: 0px;
+  border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
   margin-right: 10px;
@@ -557,8 +557,6 @@ body {
   margin-right: 0px;
 }
 
-/* INFO */
-.info-wrap {}
 
 /* Photo */
 .photo {
@@ -576,8 +574,6 @@ body {
   border-radius: 4px;
   width: 100%;
 }
-
-.info {}
 
 .info h1, #header h1 {
   text-transform: uppercase;
@@ -614,7 +610,6 @@ body {
 }
 
 /* Contact */
-.main-links {}
 
 .main-links ul {
   list-style: none outside none;
@@ -630,11 +625,6 @@ body {
 .main-links ul li a {
   font-size: 14px;
 }
-
-/* Contact-info */
-.contact-info {}
-
-.contact-info i {}
 
 /* Icon Styling */
 .contact-info i {
@@ -1013,7 +1003,7 @@ input[type=text], .project_description, input[type=url] {
   display: none;
 }
 
-@-webkit-keyframes move {
+@keyframes move {
   0% {
     background-position: 0 0;
   }
@@ -1052,6 +1042,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .nostripes>span>span, .nostripes>span:after {
+  animation: none;
   -webkit-animation: none;
   background-image: none;
 }
@@ -1081,19 +1072,9 @@ FOLDING FLUID GRID
 > 1024px            - 3-Column Fluid Grid
 Change widths as necessary
 ------------------------------------------- */
-/* MOBILE PORTRAIT */
-@media only screen and (min-width: 320px) {
-  body {}
-}
-
-/* MOBILE LANDSCAPE */
-@media only screen and (min-width: 480px) {
-  body {}
-}
 
 /* SMALL TABLET */
 @media only screen and (max-width: 600px) {
-  body {}
 
   .etabs>li span {
     display: block;
@@ -1110,7 +1091,6 @@ Change widths as necessary
 
 /* TABLET/NETBOOK */
 @media only screen and (min-width: 768px) {
-  body {}
 
   /* Sidebar */
   .sidebar {
@@ -1120,8 +1100,8 @@ Change widths as necessary
 
   /* COLUMN GRID */
   .g1, .g2, .g3 {
-    display: inline;
-    float: left
+    /* display: inline; */
+    float: left;
   }
 
   /* 2 COLUMN GRID */
@@ -1189,7 +1169,6 @@ Change widths as necessary
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
 @media only screen and (min-width: 1024px) {
-  body {}
 
   .etabs>li span {
     display: inline;
@@ -1220,20 +1199,6 @@ Change widths as necessary
   .g3 {
     width: 98.0%
   }
-}
-
-@media only screen and (min-width: 1280px) {
-
-  /* DESKTOP */
-  body {}
-}
-
-/* WIDESCREEN */
-/* Increased body size for legibility */
-@media only screen and (min-width: 1400px) {
-  body {}
-
-  /* 18.5px / 28px */
 }
 
 /* PRINT */
