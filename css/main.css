@@ -160,7 +160,7 @@ th {
   text-align: left
 }
 
-th, {
+th {
   padding: 800px;
   border-bottom: 0 solid #333
 }
@@ -771,7 +771,8 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
   *display: inline;
   *zoom: 1;
   position: relative;
