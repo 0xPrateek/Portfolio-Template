@@ -6,7 +6,7 @@ A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers 
 2. To add your details, you just need simple editing skills. No code changes required!
 3. Simple and Fast website User Interface.
 
-### Website UI Gallary
+### Website UI Gallery
 #### About Tab
 ![About Tab](https://i.postimg.cc/WpCWc7gB/1.png)
 
@@ -23,10 +23,10 @@ A Portfolio/Resume website template for Programmers, Geeks, Developers, Hackers 
 For Demo of this template you can visit http://0xprateek-portfolio-template.rf.gd
 
 ### Quick Start
-If you are reading this then I will assume that you know something about code and want to make a resume website of yours then this open-source project may help you setup it to showcase all your creations without effort.
+If you are reading this then I will assume that you know something about code and want to make a resume website of yours then this open-source project may help you set it up to showcase all your creations without effort.
 - For adding your avatar , You have to replace images/my.jpg with your square photo [Perfect size : 160 x 160].
 - For changing background image, You need to replace images/floor.jpg with your prefered background.
-- For changing rest of the information, simply open index.html and you can easily understand everything.
+- For changing the rest of the information, simply open index.html and you can easily understand everything.
 
 
 ### Contributing
@@ -38,3 +38,5 @@ Any and all contributions, issues, features and tips are welcome.
 ### Contact
 
 For any Suggestion / Ideas ping me at [@prateekis1](https://twitter.com/prateekis1)
+
+
