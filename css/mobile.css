@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:450px){
+    body{
+        font-size: 15px;
+    }
+    /* hide text on tab */
+    .etabs li span {
+        display: none;
+    }
+    .contact-info i{
+        font-size: 1em;
+        padding-top: 11px;
+    }
+    #tab-data-wrap{
+        padding: 20px;
+    }
+    /* main page and tab 1 size fix */
+    header h1{
+        font-size: 30px;
+    }
+    .info h2, #header h2{
+        margin-top: 0px;
+    }
+    .info h4, #header h4{
+        margin-bottom: 0;
+    }
+    .info{
+        margin-top: 10px !important;
+    }
+    .info h2{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .info h4{
+        font-size: 15px;
+    }
+    .info p{
+        padding-top: 10px;
+    }
+    /* fix photo padding issue */
+    .photo {
+        margin: 0;
+    }
+    .main-links ul li {
+        border-bottom: 1px solid #d2d0d0;
+        padding: 10px 0;
+    }
+    .info h6, #header h6 {
+        font-size: 30px;
+    }
+    .info h4, #header h4 {
+        font-size: 20px;
+    }
+    /* adjust width of project section */
+    .project-container{
+        max-width: 240px;
+    }
+    .project-title {
+        margin: 10px;
+    }
+    /* fix icon size issue on tab4 */
+    .sny-icon i{
+        font-size: 1em;
+        margin-right: 10px;
+
+    }
+    #resume .clearfix .g2 , .g1{
+        /* max-width: 100vw; */
+        overflow: hidden;
+    }
+}
+/* fix of icon on tab 4 for desktop  */
+@media screen and (min-width: 550px) {
+    .sny-icon i{
+        font-size: 1em;
+        margin-right: 10px;
+
+    }
+}
