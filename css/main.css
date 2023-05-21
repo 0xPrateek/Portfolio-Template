@@ -1296,3 +1296,61 @@ tbody {
   vertical-align: middle;
   display: grid;
 }
+
+
+.glow {
+  font-size: 64px;
+  font-family: 'Arial Black', sans-serif;
+  color: #4CAF50;
+  text-shadow: 0 0 10px #4CAF50;
+  animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+      text-shadow: 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50;
+  }
+  50% {
+      text-shadow: 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 120px #4CAF50;
+  }
+  100% {
+      text-shadow: 0 0 20px #4CAF50, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 60px #4CAF50, 0 0 70px #4CAF50, 0 0 80px #4CAF50;
+  }
+}
+
+.glow-light {
+  font-family: 'Arial Black', sans-serif;
+  color: black;
+  text-shadow: 0 0 2px #4CAF50;
+  animation: glowing-light 2s ease-in-out infinite;
+}
+
+@keyframes glowing-light {
+  0% {
+      text-shadow: 0 0 15px;;
+  }
+  50% {
+      text-shadow: 0 0 25px;
+  }
+  100% {
+      text-shadow: 0 0 30px;
+  }
+}
+
+/* CSS for the powerful blue neon glowing text effect */
+.neon{
+  /* color: #00c3ff; Text color */
+  font-weight: bolder;
+  text-shadow: 0 0 5px #00c3ff, 0 0 20px #00c3ff, 0 0 40px #00c3ff, 0 0 80px #00c3ff, 0 0 120px #00c3ff, 0 0 140px #00c3ff, 0 0 180px #00c3ff; /* Multiple shadows for the powerful neon effect */
+  animation: glowing-neon 1.5s ease-in-out infinite alternate; /* Adjust duration and animation timing as needed */
+}
+
+/* Keyframes for the glowing animation */
+@keyframes glowing-neon {
+  0% {
+    text-shadow: 0 0 25px #00c3ff;
+  }
+  100% {
+    text-shadow: 0 0 40px #00c3ff;
+  }
+}

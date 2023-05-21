@@ -39,7 +39,7 @@
       <!-- Header Start -->
       <header id="header">
         <div id="logo">
-          <h6>
+          <h6 class="glow">
             Your Name
           </h6>
           <h4>
@@ -51,7 +51,7 @@
       <!-- Text "hello world" -->
       <header id="header">
         <div id="helloworld">
-          <h1>
+          <h1 class="glow">
             Hello, World !
           </h1>
         </div>
@@ -66,7 +66,7 @@
           <li class='tab' id="tab-about">
             <a href="#about">
               <i class="icon-user"></i>
-              <span>
+              <span class="glow-light">
                 About Me
               </span>
             </a>
@@ -75,7 +75,7 @@
           <li class='tab'>
             <a href="#resume">
               <i class="icon-file-text"></i>
-              <span>
+              <span class="glow-light">
                 Skills
               </span>
             </a>
@@ -84,7 +84,7 @@
           <li class='tab'>
             <a href="#portfolio">
               <i class="icon-heart"></i>
-              <span>
+              <span class="glow-light">
                 Projects
               </span>
             </a>
@@ -93,7 +93,7 @@
           <li class='tab'>
             <a href="#contact">
               <i class="icon-envelope"></i>
-              <span>
+              <span class="glow-light">
                 Contact
               </span>
             </a>
@@ -114,7 +114,7 @@
                   <img src="./images/my.jpg" alt="Your alt text">
                 </div>
                 <div class="info">
-                  <h2>
+                  <h2 class="neon">
                     <p></p>
                     Your Name
                   </h2>
@@ -206,7 +206,7 @@
           <div id="resume">
             <section class="clearfix">
               <div class="g2">
-                <h3>
+                <h3 class="neon">
                   Programming
                 </h3>
                 <div class="meter emerald">
@@ -248,7 +248,7 @@
               </div>
 
               <div class="g1">
-                <h3>
+                <h3 class="neon">
                   Skills
                 </h3>
                 <div class="meter emerald">
@@ -289,7 +289,7 @@
               </div>
 
               <div class="g2">
-                <h3>
+                <h3 class="neon">
                   Hobbies
                 </h3>
                 <span class="label label-info">Hobby 1</span>
@@ -307,55 +307,64 @@
             <section class="clearfix">
               <div class="project-section">
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container"onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
                 </div>
                 <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                  <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/floor.jpg" alt="project image">
                   </div>
                   <p class="project-title">Project Title</p>
@@ -366,15 +375,17 @@
                 <form class="modal-content animate">
 
                   <div class="imgcontainer">
-                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
+                      title="Close PopUp">&times;</span>
                     <img src="images/floor.jpg" alt="project" class="avatar">
                     <h1 class="project_details" style="text-align:center">Project Details</h1>
                   </div>
 
                   <div class="container">
                     <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
-                    <input type="url" placeholder="Project Link"readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description"
+                      readonly></textarea>
+                    <input type="url" placeholder="Project Link" readonly>
                     <input type="text" placeholder="Languages used" readonly>
                     <button class="project_submit" type="submit">Submit</button>
                   </div>
@@ -395,7 +406,7 @@
                     <i class="icon-globe"></i>
                   </div>
                   <div class="sny-icon-content">
-                    <h4>
+                    <h4 class="neon">
                       Address
                     </h4>
                     <p>
@@ -410,7 +421,7 @@
                     <i class="icon-phone"></i>
                   </div>
                   <div class="sny-icon-content">
-                    <h4>
+                    <h4 class="neon">
                       E-mail
                     </h4>
                     <p>
@@ -425,7 +436,7 @@
                     <i class="icon-user"></i>
                   </div>
                   <div class="sny-icon-content">
-                    <h4>
+                    <h4 class="neon">
                       About Me
                     </h4>
                     <p>
